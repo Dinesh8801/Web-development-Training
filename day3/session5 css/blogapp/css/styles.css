@@ -1,0 +1,59 @@
+h1 {
+  color: #1098ad;
+}
+
+/* CHILD SELECTOR */
+footer p {
+  font-size: 10px;
+  font-style: italic;
+}
+
+/* ID SELECTOR */
+#author {
+  font-style: italic;
+}
+
+/* CLASS SELECTOR */
+/* .intro {
+  color: chocolate;
+} */
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  border-left: 5px solid #1098ad;
+  border-right: 5px solid #1098ad;
+}
+
+/* Solution 1 Basic */
+/* .first-item {
+  font-weight: bold;
+  color: red;
+} */
+
+/* Solution 2 Actual to be implemented using pseudo class*/
+li:first-child {
+  font-weight: bold;
+  color: red;
+}
+
+/* Styling Hyperlinks using pseudo classes */
+a:link {
+  color: #1098ad;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}

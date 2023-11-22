@@ -1,0 +1,66 @@
+/* COMMON STYLES */
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+/* PRODUCT */
+.product {
+  border: 4px solid black;
+}
+.product-title {
+  text-align: center;
+  font-size: 24px;
+  text-transform: uppercase;
+  background-color: #b7b7b7;
+}
+/* PRODUCT INFO */
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #777;
+}
+/* USING PSUEDO CLASSES FOR HOVER EFFECTS */
+.more-info:link,
+.more-info:visited {
+  color: black;
+}
+
+.more-info:hover,
+.more-info:active {
+  text-decoration: none;
+  /* removes the underline when hoverd or clicked */
+}
+
+/* PRODUCT DETAILS */
+.details-title {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.details-list {
+  list-style: square;
+  /* square bullets */
+}
+
+/* BUTTON */
+.add-cart {
+  background-color: black;
+  color: #fff;
+  font-size: 20px;
+  border: none;
+  /* remove button border */
+  text-transform: uppercase;
+  cursor: pointer;
+  /* for hand pointer when we hover on button */
+}
+
+/* REVERSE EFFECT OF TEXT GETTING BLACK AND BACKGROUND WHITE WHEN HOVERED */
+.add-cart:hover {
+  background-color: #fff;
+  color: black;
+}
